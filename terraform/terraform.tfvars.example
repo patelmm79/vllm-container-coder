@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your values
+# cp terraform.tfvars.example terraform.tfvars
+
+project_id          = "globalbiting-dev"
+project_number      = "YOUR_PROJECT_NUMBER"  # Get from: gcloud projects describe globalbiting-dev --format="value(projectNumber)"
+region              = "us-central1"
+hf_token_secret_id  = "HF_TOKEN"
